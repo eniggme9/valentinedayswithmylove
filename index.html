@@ -26,6 +26,8 @@
             padding: 20px;
             background-image: radial-gradient(circle at 20% 30%, rgba(233, 30, 99, 0.08) 0%, transparent 40%),
                               radial-gradient(circle at 80% 70%, rgba(233, 30, 99, 0.08) 0%, transparent 40%);
+            transform: scale(0.9); /* Reduz o layout em 10% */
+            transform-origin: center;
         }
         
         .container {
@@ -42,7 +44,7 @@
         }
         
         .header {
-            padding: 30px;
+            padding: 27px; /* Reduzido em 10% */
             text-align: center;
             background: linear-gradient(to right, #111, #222);
             border-bottom: 1px solid #444;
@@ -50,8 +52,8 @@
         }
         
         .header h1 {
-            font-size: 3.5rem;
-            margin-bottom: 10px;
+            font-size: 3.15rem; /* Reduzido em 10% */
+            margin-bottom: 9px; /* Reduzido em 10% */
             color: #e91e63;
             text-shadow: 0 0 15px rgba(233, 30, 99, 0.7);
             letter-spacing: 2px;
@@ -62,54 +64,54 @@
         .header h1::after {
             content: '';
             position: absolute;
-            bottom: -10px;
+            bottom: -9px; /* Reduzido em 10% */
             left: 50%;
             transform: translateX(-50%);
-            width: 150px;
+            width: 135px; /* Reduzido em 10% */
             height: 3px;
             background: linear-gradient(to right, transparent, #e91e63, transparent);
             border-radius: 3px;
         }
         
         .header p {
-            font-size: 1.4rem;
+            font-size: 1.26rem; /* Reduzido em 10% */
             color: #bbb;
-            margin-top: 10px;
+            margin-top: 9px; /* Reduzido em 10% */
             font-weight: 300;
         }
         
         .spotify-player {
-            background: #000;
-            padding: 15px 20px;
+            background: rgba(20, 20, 20, 0.9); /* Cor de fundo igual às outras seções */
+            padding: 13.5px 0; /* Reduzido em 10% */
             border-bottom: 1px solid #444;
-            max-width: 800px;
-            margin: 0 auto;
+            border-top: 1px solid #444; /* Borda superior para combinar */
+            width: 100%; /* Ocupa toda a largura */
             display: flex;
             justify-content: center;
         }
         
         .spotify-player iframe {
             border-radius: 12px;
-            width: 100%;
+            width: 95%; /* Ocupa mais espaço */
             max-width: 800px;
-            height: 152px;
+            height: 136.8px; /* Reduzido em 10% */
         }
         
         .together-section {
-            padding: 40px;
+            padding: 36px; /* Reduzido em 10% */
             text-align: center;
             background: rgba(20, 20, 20, 0.9);
-            margin: 30px;
+            margin: 27px; /* Reduzido em 10% */
             border-radius: 20px;
             border: 1px solid #444;
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 22.5px rgba(0, 0, 0, 0.6); /* Reduzido em 10% */
             position: relative;
         }
         
         .section-title {
-            font-size: 2.8rem;
+            font-size: 2.52rem; /* Reduzido em 10% */
             color: #e91e63;
-            margin-bottom: 40px;
+            margin-bottom: 36px; /* Reduzido em 10% */
             text-shadow: 0 0 10px rgba(233, 30, 99, 0.6);
             position: relative;
             display: inline-block;
@@ -118,27 +120,28 @@
         .section-title::after {
             content: '';
             position: absolute;
-            bottom: -15px;
+            bottom: -13.5px; /* Reduzido em 10% */
             left: 50%;
             transform: translateX(-50%);
-            width: 150px;
+            width: 135px; /* Reduzido em 10% */
             height: 4px;
             background: linear-gradient(to right, transparent, #e91e63, transparent);
             border-radius: 3px;
         }
         
         .start-date {
-            font-size: 1.6rem;
+            font-size: 1.44rem; /* Reduzido em 10% */
             color: #f48fb1;
-            margin-bottom: 40px;
+            margin-bottom: 36px; /* Reduzido em 10% */
             letter-spacing: 1.5px;
         }
         
         /* Contador reorganizado em duas linhas e centralizado */
         .timer-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 22.5px; /* Reduzido em 10% */
             max-width: 900px;
             margin: 0 auto;
         }
@@ -146,41 +149,42 @@
         .timer-row {
             display: flex;
             justify-content: center;
-            gap: 25px;
+            gap: 22.5px; /* Reduzido em 10% */
             max-width: 900px;
-            margin: 30px auto 0;
+            margin: 0 auto;
         }
         
         .timer-box {
             background: rgba(40, 40, 40, 0.9);
-            padding: 25px 15px;
-            border-radius: 15px;
+            padding: 22.5px 13.5px; /* Reduzido em 10% */
+            border-radius: 13.5px; /* Reduzido em 10% */
             border: 1px solid #555;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 7.2px 22.5px rgba(0, 0, 0, 0.4); /* Reduzido em 10% */
             transition: all 0.3s ease;
-            width: 100%;
-            max-width: 200px;
+            width: 180px; /* Largura fixa para uniformidade */
+            height: 135px; /* Altura fixa para uniformidade */
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
         }
         
         .timer-box:hover {
-            transform: translateY(-10px);
+            transform: translateY(-9px); /* Reduzido em 10% */
             background: rgba(50, 50, 50, 0.9);
-            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10.8px 27px rgba(0, 0, 0, 0.5); /* Reduzido em 10% */
         }
         
         .timer-value {
-            font-size: 3rem;
+            font-size: 2.7rem; /* Reduzido em 10% */
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 9px; /* Reduzido em 10% */
             color: #fff;
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
         
         .timer-label {
-            font-size: 1.2rem;
+            font-size: 1.08rem; /* Reduzido em 10% */
             color: #bbb;
             text-transform: uppercase;
             letter-spacing: 1.5px;
@@ -189,15 +193,15 @@
         
         .love-message {
             background: rgba(30, 30, 30, 0.8);
-            padding: 40px;
-            margin: 0 40px 40px;
-            border-radius: 20px;
+            padding: 36px; /* Reduzido em 10% */
+            margin: 0 36px 36px; /* Reduzido em 10% */
+            border-radius: 18px; /* Reduzido em 10% */
             line-height: 1.8;
-            font-size: 1.3rem;
+            font-size: 1.17rem; /* Reduzido em 10% */
             text-align: justify;
             color: #ddd;
             border: 1px solid #444;
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 22.5px rgba(0, 0, 0, 0.6); /* Reduzido em 10% */
             position: relative;
             font-style: italic;
         }
@@ -205,9 +209,9 @@
         .love-message::before {
             content: """;
             position: absolute;
-            top: 15px;
-            left: 25px;
-            font-size: 6rem;
+            top: 13.5px; /* Reduzido em 10% */
+            left: 22.5px; /* Reduzido em 10% */
+            font-size: 5.4rem; /* Reduzido em 10% */
             color: rgba(233, 30, 99, 0.2);
             font-family: Georgia, serif;
             line-height: 1;
@@ -216,9 +220,9 @@
         .love-message::after {
             content: """;
             position: absolute;
-            bottom: 15px;
-            right: 25px;
-            font-size: 6rem;
+            bottom: 13.5px; /* Reduzido em 10% */
+            right: 22.5px; /* Reduzido em 10% */
+            font-size: 5.4rem; /* Reduzido em 10% */
             color: rgba(233, 30, 99, 0.2);
             font-family: Georgia, serif;
             line-height: 1;
@@ -226,28 +230,28 @@
         }
         
         .carousel-section {
-            padding: 30px;
-            margin: 40px;
-            border-radius: 20px;
+            padding: 27px; /* Reduzido em 10% */
+            margin: 36px; /* Reduzido em 10% */
+            border-radius: 18px; /* Reduzido em 10% */
             background: rgba(20, 20, 20, 0.9);
             border: 1px solid #444;
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 22.5px rgba(0, 0, 0, 0.6); /* Reduzido em 10% */
         }
         
         .carousel-title {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 2.25rem; /* Reduzido em 10% */
             color: #e91e63;
-            margin-bottom: 30px;
+            margin-bottom: 27px; /* Reduzido em 10% */
             text-shadow: 0 0 10px rgba(233, 30, 99, 0.6);
         }
         
         .swiper {
             width: 100%;
-            height: 550px;
-            border-radius: 20px;
+            height: 495px; /* Reduzido em 10% */
+            border-radius: 18px; /* Reduzido em 10% */
             overflow: hidden;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 13.5px 36px rgba(0, 0, 0, 0.8); /* Reduzido em 10% */
         }
         
         .swiper-slide {
@@ -273,7 +277,7 @@
         .swiper-slide-content {
             position: relative;
             z-index: 2;
-            padding: 30px;
+            padding: 27px; /* Reduzido em 10% */
             text-align: center;
             color: white;
             width: 100%;
@@ -282,22 +286,22 @@
         }
         
         .swiper-slide-title {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
+            font-size: 1.62rem; /* Reduzido em 10% */
+            margin-bottom: 9px; /* Reduzido em 10% */
             color: #fff;
             text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
         }
         
         .swiper-slide-date {
-            font-size: 1.3rem;
+            font-size: 1.17rem; /* Reduzido em 10% */
             color: #f48fb1;
         }
         
         .swiper-button-next, .swiper-button-prev {
             color: #e91e63 !important;
             background: rgba(0, 0, 0, 0.5);
-            width: 60px;
-            height: 60px;
+            width: 54px; /* Reduzido em 10% */
+            height: 54px; /* Reduzido em 10% */
             border-radius: 50%;
             backdrop-filter: blur(5px);
             transition: all 0.3s ease;
@@ -311,8 +315,8 @@
         .swiper-pagination-bullet {
             background: #bbb !important;
             opacity: 0.7 !important;
-            width: 12px !important;
-            height: 12px !important;
+            width: 10.8px !important; /* Reduzido em 10% */
+            height: 10.8px !important; /* Reduzido em 10% */
             transition: all 0.3s ease;
         }
         
@@ -324,8 +328,8 @@
         
         .footer {
             text-align: center;
-            padding: 25px;
-            font-size: 1.2rem;
+            padding: 22.5px; /* Reduzido em 10% */
+            font-size: 1.08rem; /* Reduzido em 10% */
             color: #777;
             border-top: 1px solid #333;
             width: 100%;
@@ -375,7 +379,7 @@
         
         .heart-particle {
             position: absolute;
-            font-size: 1.8rem;
+            font-size: 1.62rem; /* Reduzido em 10% */
             opacity: 0;
             color: #e91e63;
             animation: float 10s infinite linear;
@@ -404,7 +408,7 @@
         
         .heart-particle-2 {
             position: absolute;
-            font-size: 1.2rem;
+            font-size: 1.08rem; /* Reduzido em 10% */
             opacity: 0;
             color: rgba(233, 30, 99, 0.3);
             animation: float 15s infinite linear;
@@ -457,13 +461,13 @@
         
         .easter-content {
             background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 600px;
+            border-radius: 18px; /* Reduzido em 10% */
+            padding: 36px; /* Reduzido em 10% */
+            max-width: 540px; /* Reduzido em 10% */
             width: 90%;
             text-align: center;
             border: 2px solid #e91e63;
-            box-shadow: 0 0 40px rgba(233, 30, 99, 0.6);
+            box-shadow: 0 0 36px rgba(233, 30, 99, 0.6); /* Reduzido em 10% */
             position: relative;
             transform: scale(0.8);
             transition: transform 0.5s ease;
@@ -475,26 +479,26 @@
         
         .easter-content h2 {
             color: #e91e63;
-            font-size: 2.5rem;
-            margin-bottom: 20px;
+            font-size: 2.25rem; /* Reduzido em 10% */
+            margin-bottom: 18px; /* Reduzido em 10% */
             text-shadow: 0 0 10px rgba(233, 30, 99, 0.4);
         }
         
         .easter-content p {
-            font-size: 1.3rem;
+            font-size: 1.17rem; /* Reduzido em 10% */
             line-height: 1.8;
-            margin-bottom: 30px;
+            margin-bottom: 27px; /* Reduzido em 10% */
             color: #f0f0f0;
         }
         
         .secret-message {
             background: rgba(233, 30, 99, 0.1);
-            padding: 20px;
-            border-radius: 15px;
-            margin: 20px 0;
+            padding: 18px; /* Reduzido em 10% */
+            border-radius: 13.5px; /* Reduzido em 10% */
+            margin: 18px 0; /* Reduzido em 10% */
             border-left: 4px solid #e91e63;
             font-style: italic;
-            font-size: 1.4rem;
+            font-size: 1.26rem; /* Reduzido em 10% */
             color: #ffb6c1;
         }
         
@@ -502,23 +506,23 @@
             background: linear-gradient(to right, #e91e63, #c2185b);
             color: white;
             border: none;
-            padding: 12px 30px;
-            font-size: 1.2rem;
+            padding: 10.8px 27px; /* Reduzido em 10% */
+            font-size: 1.08rem; /* Reduzido em 10% */
             border-radius: 50px;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(233, 30, 99, 0.3);
+            box-shadow: 0 4.5px 13.5px rgba(233, 30, 99, 0.3); /* Reduzido em 10% */
         }
         
         .close-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(233, 30, 99, 0.5);
+            transform: translateY(-2.7px); /* Reduzido em 10% */
+            box-shadow: 0 7.2px 18px rgba(233, 30, 99, 0.5); /* Reduzido em 10% */
         }
         
         .easter-heart {
-            font-size: 3rem;
+            font-size: 2.7rem; /* Reduzido em 10% */
             color: #e91e63;
-            margin: 20px 0;
+            margin: 18px 0; /* Reduzido em 10% */
             animation: heartbeat 1.2s infinite;
         }
         
@@ -570,7 +574,7 @@
             <div class="start-date">Isso da exatamente</div>
             
             <!-- Contador reorganizado e centralizado -->
-            <div style="display: flex; flex-direction: column; align-items: center;">
+            <div class="timer-container">
                 <!-- Primeira linha: Anos, Meses, Dias -->
                 <div class="timer-row">
                     <div class="timer-box">
@@ -582,7 +586,7 @@
                         <div class="timer-label">Meses</div>
                     </div>
                     <div class="timer-box">
-                        <div class="timer-value" id="days">2</div>
+                        <div class="timer-value" id="days">7</div>
                         <div class="timer-label">Dias</div>
                     </div>
                 </div>
@@ -594,11 +598,11 @@
                         <div class="timer-label">Horas</div>
                     </div>
                     <div class="timer-box">
-                        <div class="timer-value" id="minutes">46</div>
+                        <div class="timer-value" id="minutes">38</div>
                         <div class="timer-label">Minutos</div>
                     </div>
                     <div class="timer-box">
-                        <div class="timer-value" id="seconds">6</div>
+                        <div class="timer-value" id="seconds">13</div>
                         <div class="timer-label">Segundos</div>
                     </div>
                 </div>
@@ -784,7 +788,7 @@ Com muito amor, da sua metade da laranja, dos seus cachinhos favoritos, da sua p
                 heart.style.left = Math.random() * 100 + 'vw';
                 heart.style.animationDuration = (Math.random() * 10 + 8) + 's';
                 heart.style.animationDelay = Math.random() * 5 + 's';
-                heart.style.fontSize = (Math.random() * 20 + 15) + 'px';
+                heart.style.fontSize = (Math.random() * 18 + 13.5) + 'px';
                 heartsContainer.appendChild(heart);
                 
                 // Segunda camada de corações (mais sutis)
