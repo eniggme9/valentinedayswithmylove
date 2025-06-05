@@ -24,26 +24,23 @@
             overflow-x: hidden;
             background-image: radial-gradient(circle at 20% 30%, rgba(233, 30, 99, 0.08) 0%, transparent 40%),
                               radial-gradient(circle at 80% 70%, rgba(233, 30, 99, 0.08) 0%, transparent 40%);
-            transform: scale(1.1); /* Aumento de 10% no layout */
-            transform-origin: center;
-            padding: 30px 0;
         }
         
         .container {
-            max-width: 820px; /* Aumentado em 10% */
+            max-width: 800px;
             width: 100%;
             background: rgba(10, 10, 10, 0.95);
-            border-radius: 21px; /* Aumentado em 10% */
-            box-shadow: 0 0 31px rgba(200, 0, 100, 0.44); /* Aumentado em 10% */
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(200, 0, 100, 0.4);
             overflow: hidden;
-            margin: 21px auto; /* Aumentado em 10% */
+            margin: 20px auto;
             position: relative;
             border: 1px solid #333;
             z-index: 10;
         }
         
         .header {
-            padding: 21px; /* Aumentado em 10% */
+            padding: 20px;
             text-align: center;
             background: linear-gradient(to right, #111, #222);
             border-bottom: 1px solid #444;
@@ -51,41 +48,41 @@
         }
         
         .header h1 {
-            font-size: 2.6rem; /* Aumentado em 10% */
-            margin-bottom: 5.2px; /* Aumentado em 10% */
+            font-size: 2.5rem;
+            margin-bottom: 5px;
             color: #e91e63;
-            text-shadow: 0 0 16px rgba(233, 30, 99, 0.8); /* Aumentado em 10% */
-            letter-spacing: 1.1px; /* Aumentado em 10% */
+            text-shadow: 0 0 10px rgba(233, 30, 99, 0.5);
+            letter-spacing: 1px;
         }
         
         .header p {
-            font-size: 1.15rem; /* Aumentado em 10% */
+            font-size: 1.1rem;
             color: #bbb;
-            margin-top: 5.5px; /* Aumentado em 10% */
+            margin-top: 5px;
         }
         
         .spotify-player {
             background: #000;
-            padding: 11px 0; /* Aumentado em 10% */
+            padding: 10px 0;
             border-bottom: 1px solid #444;
         }
         
         .together-section {
-            padding: 32px 21px; /* Aumentado em 10% */
+            padding: 30px 20px;
             text-align: center;
             background: rgba(20, 20, 20, 0.9);
-            margin: 21px; /* Aumentado em 10% */
-            border-radius: 16px; /* Aumentado em 10% */
+            margin: 20px;
+            border-radius: 15px;
             border: 1px solid #444;
-            box-shadow: 0 0 16px rgba(0, 0, 0, 0.55); /* Aumentado em 10% */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
             position: relative;
         }
         
         .section-title {
-            font-size: 2.1rem; /* Aumentado em 10% */
+            font-size: 2rem;
             color: #e91e63;
-            margin-bottom: 26.5px; /* Aumentado em 10% */
-            text-shadow: 0 0 11px rgba(233, 30, 99, 0.66); /* Aumentado em 10% */
+            margin-bottom: 25px;
+            text-shadow: 0 0 8px rgba(233, 30, 99, 0.4);
             position: relative;
             display: inline-block;
         }
@@ -93,70 +90,70 @@
         .section-title::after {
             content: '';
             position: absolute;
-            bottom: -8.4px; /* Aumentado em 10% */
+            bottom: -8px;
             left: 50%;
             transform: translateX(-50%);
-            width: 84px; /* Aumentado em 10% */
-            height: 3.3px; /* Aumentado em 10% */
+            width: 80px;
+            height: 3px;
             background: linear-gradient(to right, transparent, #e91e63, transparent);
-            border-radius: 3.3px; /* Aumentado em 10% */
+            border-radius: 3px;
         }
         
         .start-date {
-            font-size: 1.40rem; /* Aumentado em 10% */
+            font-size: 1.3rem;
             color: #f48fb1;
-            margin-bottom: 26.5px; /* Aumentado em 10% */
-            letter-spacing: 1.1px; /* Aumentado em 10% */
+            margin-bottom: 25px;
+            letter-spacing: 1px;
         }
         
         .timer-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 16.5px; /* Aumentado em 10% */
-            max-width: 660px; /* Aumentado em 10% */
+            gap: 15px;
+            max-width: 100%;
             margin: 0 auto;
         }
         
         .timer-box {
             background: rgba(40, 40, 40, 0.9);
-            padding: 16px; /* Aumentado em 10% */
-            border-radius: 13.px; /* Aumentado em 10% */
+            padding: 15px;
+            border-radius: 12px;
             border: 1px solid #555;
-            box-shadow: 0 5.5px 16.5px rgba(0, 0, 0, 0.33); /* Aumentado em 10% */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s;
         }
         
         .timer-box:hover {
-            transform: translateY(-5.5px); /* Aumentado em 10% */
+            transform: translateY(-5px);
             background: rgba(50, 50, 50, 0.9);
         }
         
         .timer-value {
-            font-size: 2.2rem; /* Aumentado em 10% */
+            font-size: 2rem;
             font-weight: bold;
-            margin-bottom: 5.5px; /* Aumentado em 10% */
+            margin-bottom: 5px;
             color: #fff;
-            text-shadow: 0 0 8.8px rgba(255, 255, 255, 0.33); /* Aumentado em 10% */
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
         }
         
         .timer-label {
-            font-size: 1.1rem; /* Aumentado em 10% */
+            font-size: 1rem;
             color: #bbb;
             text-transform: uppercase;
-            letter-spacing: 1.1px; /* Aumentado em 10% */
+            letter-spacing: 1px;
         }
         
         .love-message {
             background: rgba(30, 30, 30, 0.8);
-            padding: 32px; /* Aumentado em 10% */
-            margin: 0 21px 32px; /* Aumentado em 10% */
-            border-radius: 16px; /* Aumentado em 10% */
+            padding: 30px;
+            margin: 0 20px 30px;
+            border-radius: 15px;
             line-height: 1.8;
-            font-size: 1.2rem; /* Aumentado em 10% */
+            font-size: 1.1rem;
             text-align: justify;
             color: #ddd;
             border: 1px solid #444;
-            box-shadow: 0 0 16.5px rgba(0, 0, 0, 0.55); /* Aumentado em 10% */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
             position: relative;
             font-style: italic;
         }
@@ -164,9 +161,9 @@
         .love-message::before {
             content: """;
             position: absolute;
-            top: 11px; /* Aumentado em 10% */
-            left: 22px; /* Aumentado em 10% */
-            font-size: 4.4rem; /* Aumentado em 10% */
+            top: 10px;
+            left: 20px;
+            font-size: 4rem;
             color: rgba(233, 30, 99, 0.2);
             font-family: Georgia, serif;
             line-height: 1;
@@ -175,9 +172,9 @@
         .love-message::after {
             content: """;
             position: absolute;
-            bottom: 11px; /* Aumentado em 10% */
-            right: 22px; /* Aumentado em 10% */
-            font-size: 4.4rem; /* Aumentado em 10% */
+            bottom: 10px;
+            right: 20px;
+            font-size: 4rem;
             color: rgba(233, 30, 99, 0.2);
             font-family: Georgia, serif;
             line-height: 1;
@@ -185,28 +182,28 @@
         }
         
         .carousel-section {
-            padding: 21px; /* Aumentado em 10% */
-            margin: 32px 21px; /* Aumentado em 10% */
-            border-radius: 16px; /* Aumentado em 10% */
+            padding: 20px;
+            margin: 30px 20px;
+            border-radius: 15px;
             background: rgba(20, 20, 20, 0.9);
             border: 1px solid #444;
-            box-shadow: 0 0 16.5px rgba(0, 0, 0, 0.55); /* Aumentado em 10% */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
         }
         
         .carousel-title {
             text-align: center;
-            font-size: 1.9rem; /* Aumentado em 10% */
+            font-size: 1.8rem;
             color: #e91e63;
-            margin-bottom: 22px; /* Aumentado em 10% */
-            text-shadow: 0 0 11px rgba(233, 30, 99, 0.66); /* Aumentado em 10% */
+            margin-bottom: 20px;
+            text-shadow: 0 0 8px rgba(233, 30, 99, 0.4);
         }
         
         .swiper {
             width: 100%;
-            height: 420px; /* Aumentado em 10% */
-            border-radius: 16px; /* Aumentado em 10% */
+            height: 400px;
+            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 11px 33px rgba(0, 0, 0, 0.77); /* Aumentado em 10% */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         }
         
         .swiper-slide {
@@ -216,16 +213,6 @@
             align-items: flex-end;
             justify-content: center;
             position: relative;
-            transition: all 0.5s ease;
-            transform: scale(0.95);
-            opacity: 0.8;
-        }
-        
-        .swiper-slide.swiper-slide-active {
-            transform: scale(1);
-            opacity: 1;
-            z-index: 10;
-            box-shadow: 0 0 30px rgba(233, 30, 99, 0.5);
         }
         
         .swiper-slide::before {
@@ -242,74 +229,59 @@
         .swiper-slide-content {
             position: relative;
             z-index: 2;
-            padding: 22px; /* Aumentado em 10% */
+            padding: 20px;
             text-align: center;
             color: white;
             width: 100%;
-            background: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(8px);
-            transition: all 0.5s ease;
-            transform: translateY(30px);
-            opacity: 0;
-        }
-        
-        .swiper-slide.swiper-slide-active .swiper-slide-content {
-            transform: translateY(0);
-            opacity: 1;
         }
         
         .swiper-slide-title {
-            font-size: 1.65rem; /* Aumentado em 10% */
-            margin-bottom: 11px; /* Aumentado em 10% */
+            font-size: 1.5rem;
+            margin-bottom: 10px;
             color: #fff;
-            text-shadow: 0 0 11px rgba(0, 0, 0, 0.88); /* Aumentado em 10% */
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
         }
         
         .swiper-slide-date {
-            font-size: 1.1rem; /* Aumentado em 10% */
+            font-size: 1rem;
             color: #f48fb1;
         }
         
         .swiper-button-next, .swiper-button-prev {
             color: #e91e63 !important;
             background: rgba(0, 0, 0, 0.5);
-            width: 55px; /* Aumentado em 10% */
-            height: 55px; /* Aumentado em 10% */
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             backdrop-filter: blur(5px);
-            transition: all 0.3s ease;
-            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            transition: all 0.3s;
         }
         
         .swiper-button-next:hover, .swiper-button-prev:hover {
-            background: rgba(233, 30, 99, 0.3);
             transform: scale(1.2);
+            background: rgba(233, 30, 99, 0.2);
         }
         
         .swiper-pagination-bullet {
             background: #bbb !important;
             opacity: 0.7 !important;
-            width: 14px; /* Aumentado em 10% */
-            height: 14px; /* Aumentado em 10% */
-            transition: all 0.3s;
         }
         
         .swiper-pagination-bullet-active {
             background: #e91e63 !important;
             opacity: 1 !important;
-            transform: scale(1.4);
-            box-shadow: 0 0 10px rgba(233, 30, 99, 0.8);
+            transform: scale(1.2);
+            box-shadow: 0 0 8px rgba(233, 30, 99, 0.5);
         }
         
         .footer {
             text-align: center;
-            padding: 22px; /* Aumentado em 10% */
-            font-size: 1.1rem; /* Aumentado em 10% */
+            padding: 20px;
+            font-size: 1rem;
             color: #777;
             border-top: 1px solid #333;
             width: 100%;
             background: rgba(15, 15, 15, 0.9);
-            position: relative;
         }
         
         .footer a {
@@ -319,7 +291,7 @@
         }
         
         .footer a:hover {
-            text-shadow: 0 0 11px rgba(233, 30, 99, 0.88); /* Aumentado em 10% */
+            text-shadow: 0 0 8px rgba(233, 30, 99, 0.5);
         }
         
         .heart-pulse {
@@ -327,14 +299,14 @@
             color: #e91e63;
             display: inline-block;
             cursor: pointer;
-            transition: all 0.3s ease;
-            text-shadow: 0 0 10px rgba(233, 30, 99, 0.5);
+            transition: all 0.3s;
+            text-shadow: 0 0 8px rgba(233, 30, 99, 0.3);
         }
         
         .heart-pulse:hover {
-            animation: pulse 0.6s infinite;
+            animation: pulse 0.8s infinite;
             transform: scale(1.3);
-            text-shadow: 0 0 20px rgba(233, 30, 99, 0.8);
+            text-shadow: 0 0 15px rgba(233, 30, 99, 0.5);
         }
         
         @keyframes pulse {
@@ -355,10 +327,11 @@
         
         .heart-particle {
             position: absolute;
-            font-size: 1.32rem; /* Aumentado em 10% */
+            font-size: 1.2rem;
             opacity: 0;
             color: #e91e63;
             animation: float 8s infinite linear;
+            filter: drop-shadow(0 0 5px rgba(233, 30, 99, 0.3));
         }
         
         @keyframes float {
@@ -383,10 +356,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 2000;
+            z-index: 1000;
             opacity: 0;
             visibility: hidden;
             transition: all 0.5s ease;
+            padding: 20px;
+            box-sizing: border-box;
         }
         
         .easter-popup.active {
@@ -397,15 +372,17 @@
         .easter-content {
             background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
             border-radius: 20px;
-            padding: 40px;
+            padding: 30px;
             max-width: 600px;
-            width: 90%;
+            width: 100%;
             text-align: center;
-            border: 3px solid #e91e63;
-            box-shadow: 0 0 40px rgba(233, 30, 99, 0.6);
+            border: 2px solid #e91e63;
+            box-shadow: 0 0 30px rgba(233, 30, 99, 0.4);
             position: relative;
             transform: scale(0.8);
             transition: transform 0.5s ease;
+            max-height: 90vh;
+            overflow-y: auto;
         }
         
         .easter-popup.active .easter-content {
@@ -414,26 +391,26 @@
         
         .easter-content h2 {
             color: #e91e63;
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            text-shadow: 0 0 15px rgba(233, 30, 99, 0.4);
+            font-size: 2rem;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(233, 30, 99, 0.3);
         }
         
         .easter-content p {
-            font-size: 1.3rem;
-            line-height: 1.8;
-            margin-bottom: 30px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
             color: #f0f0f0;
         }
         
         .secret-message {
             background: rgba(233, 30, 99, 0.1);
-            padding: 20px;
+            padding: 15px;
             border-radius: 15px;
-            margin: 20px 0;
+            margin: 15px 0;
             border-left: 4px solid #e91e63;
             font-style: italic;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             color: #ffb6c1;
         }
         
@@ -441,12 +418,15 @@
             background: linear-gradient(to right, #e91e63, #c2185b);
             color: white;
             border: none;
-            padding: 12px 30px;
-            font-size: 1.2rem;
+            padding: 12px 25px;
+            font-size: 1rem;
             border-radius: 50px;
             cursor: pointer;
             transition: all 0.3s ease;
             box-shadow: 0 5px 15px rgba(233, 30, 99, 0.3);
+            margin-top: 10px;
+            width: 100%;
+            max-width: 200px;
         }
         
         .close-btn:hover {
@@ -455,9 +435,9 @@
         }
         
         .easter-heart {
-            font-size: 3rem;
+            font-size: 2.5rem;
             color: #e91e63;
-            margin: 20px 0;
+            margin: 15px 0;
             animation: heartbeat 1.2s infinite;
         }
         
@@ -469,55 +449,90 @@
             100% { transform: scale(1); }
         }
         
-        /* Glow effect for titles */
-        .glow {
-            text-shadow: 0 0 15px rgba(233, 30, 99, 0.8), 
-                         0 0 30px rgba(233, 30, 99, 0.6),
-                         0 0 45px rgba(233, 30, 99, 0.4);
-            transition: all 0.5s ease;
-        }
-        
-        .glow:hover {
-            text-shadow: 0 0 20px rgba(233, 30, 99, 0.9), 
-                         0 0 40px rgba(233, 30, 99, 0.7),
-                         0 0 60px rgba(233, 30, 99, 0.5);
-        }
-        
         @media (max-width: 768px) {
-            body {
-                transform: scale(1); /* Reset scale on mobile */
-                padding: 15px 0;
-            }
-            
-            .container {
-                max-width: 95%;
-                margin: 15px auto;
-            }
-            
             .header h1 {
                 font-size: 2rem;
             }
             
+            .header p {
+                font-size: 1rem;
+            }
+            
             .together-section {
                 padding: 20px 15px;
+                margin: 15px;
             }
             
             .section-title {
                 font-size: 1.8rem;
+                margin-bottom: 15px;
+            }
+            
+            .start-date {
+                font-size: 1.1rem;
+                margin-bottom: 15px;
             }
             
             .timer-container {
                 grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
             }
             
-            .timer-box:nth-child(3) {
-                grid-column: span 2;
-                max-width: 50%;
-                margin: 0 auto;
+            .timer-box {
+                padding: 12px;
+            }
+            
+            .timer-value {
+                font-size: 1.8rem;
+            }
+            
+            .timer-label {
+                font-size: 0.9rem;
+            }
+            
+            .love-message {
+                padding: 20px;
+                margin: 0 15px 20px;
+                font-size: 1rem;
+            }
+            
+            .love-message::before,
+            .love-message::after {
+                font-size: 3rem;
             }
             
             .swiper {
-                height: 330px;
+                height: 300px;
+            }
+            
+            .swiper-slide-title {
+                font-size: 1.3rem;
+            }
+            
+            .swiper-slide-date {
+                font-size: 0.9rem;
+            }
+            
+            /* Easter Egg Mobile Improvements */
+            .easter-content {
+                padding: 25px 15px;
+            }
+            
+            .easter-content h2 {
+                font-size: 1.8rem;
+            }
+            
+            .easter-content p {
+                font-size: 1rem;
+            }
+            
+            .secret-message {
+                font-size: 1.1rem;
+                padding: 12px;
+            }
+            
+            .easter-heart {
+                font-size: 2rem;
             }
         }
         
@@ -526,22 +541,82 @@
                 font-size: 1.7rem;
             }
             
-            .timer-container {
-                grid-template-columns: 1fr;
-                gap: 10px;
+            .section-title {
+                font-size: 1.5rem;
             }
             
-            .timer-box:nth-child(3) {
-                grid-column: span 1;
-                max-width: 100%;
+            .timer-container {
+                grid-template-columns: 1fr;
+                max-width: 250px;
+            }
+            
+            .timer-box {
+                padding: 10px;
+            }
+            
+            .timer-value {
+                font-size: 1.5rem;
             }
             
             .swiper {
-                height: 275px;
+                height: 250px;
             }
             
             .swiper-slide-title {
+                font-size: 1.1rem;
+            }
+            
+            .swiper-slide-date {
+                font-size: 0.8rem;
+            }
+            
+            .swiper-button-next, 
+            .swiper-button-prev {
+                width: 40px;
+                height: 40px;
+                font-size: 0.8rem;
+            }
+            
+            /* Easter Egg Mobile Improvements */
+            .easter-content {
+                padding: 20px 12px;
+                border-radius: 15px;
+            }
+            
+            .easter-content h2 {
+                font-size: 1.5rem;
+            }
+            
+            .secret-message {
+                font-size: 1rem;
+                padding: 10px;
+            }
+            
+            .close-btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .section-title {
                 font-size: 1.3rem;
+            }
+            
+            .timer-value {
+                font-size: 1.3rem;
+            }
+            
+            .timer-label {
+                font-size: 0.8rem;
+            }
+            
+            .swiper {
+                height: 220px;
             }
         }
     </style>
@@ -560,25 +635,25 @@
                 "Nos pequenos detalhes, encontramos a grandiosidade do amor."
             </div>
             
-            <p>Obrigado por ser a pessoa mais incrível da minha vida. Não vejo a hora de casar logo com você, ter nossa casinha e nossos filhos.</p>
+            <p>Obrigado por ser a pessoa mais incrível da minha vida. Não vejo a hora da gente casar logo, ter nossa casinha, nossos filhos, e finalmente poder viver a vida que sempre sonhei com você.</p>
             <p>Te amo mais do que todas as estrelas no espaço e mais do que todas as palavras podem expressar.</p>
-            
+            <p>Agora manda foto da teta por favor 🥺</p>
             <button class="close-btn" id="closePopup">Fechar Mensagem</button>
         </div>
     </div>
     
     <div class="container">
         <div class="header">
-            <h1 class="glow">Matheus & Milena <span class="heart-pulse">🫀</span></h1>
-            <p>Uma história de amor escrita a cada dia</p>
+            <h1>Matheus & Milena <span class="heart-pulse">🫀</span></h1>
+            <p>Capítulo por capítulo, a gente faz da vida romance</p>
         </div>
         
         <div class="spotify-player">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/43BCxznTSBLcXzu4lJ8KW5?autoplay=1utm_source=generator&autoplay=1" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/43BCxznTSBLcXzu4lJ8KW5?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
 
         <div class="together-section">
-            <h2 class="section-title glow">Juntos desde 01 de Outubro de 2023</h2>
+            <h2 class="section-title">Juntos desde 01 de Outubro de 2023</h2>
             <div class="start-date">Isso da exatamente</div>
             
             <div class="timer-container">
@@ -618,37 +693,85 @@ Com muito amor, da sua metade da laranja, dos seus cachinhos favoritos, da sua p
         </div>
         
         <div class="carousel-section">
-            <h3 class="carousel-title glow">Nossos Momentos</h3>
+            <h3 class="carousel-title">Nossos Momentos</h3>
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80')">
+                    <div class="swiper-slide" style="background-image: url('1.jpg')">
                         <div class="swiper-slide-content">
                             <div class="swiper-slide-title">1º Encontro (tava nervoso)</div>
                             <div class="swiper-slide-date">03 de Agosto de 2023</div>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1516487106395-fa9a027f8c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+                    <div class="swiper-slide" style="background-image: url('2.webp')">
                         <div class="swiper-slide-content">
                             <div class="swiper-slide-title">1º Date (ala que gostosa do meu lado)</div>
                             <div class="swiper-slide-date">7 de Setembro de 2023</div>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1533143708019-ea3d8bcd6756?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+                    <div class="swiper-slide" style="background-image: url('3.jpg')">
                         <div class="swiper-slide-content">
                             <div class="swiper-slide-title">Pedido de namoro (perdão pelo timming)</div>
                             <div class="swiper-slide-date">01 de Outubro de 2023</div>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80')">
+                    <div class="swiper-slide" style="background-image: url('4.jpg')">
                         <div class="swiper-slide-content">
                             <div class="swiper-slide-title">1ª Foto namorando (amo essa cartinha)</div>
                             <div class="swiper-slide-date">14 de Outubro de 2023</div>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+                    <div class="swiper-slide" style="background-image: url('5.jpg')">
                         <div class="swiper-slide-content">
                             <div class="swiper-slide-title">1º Show (alô terno-rei)</div>
                             <div class="swiper-slide-date">10 de Dezembro de 2023</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('6.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">1º Ano Novo (de muitos)</div>
+                            <div class="swiper-slide-date">31 de Dezembro de 2023</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('7.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">1º Carnaval (de muitos²)</div>
+                            <div class="swiper-slide-date">08 de Fevereiro de 2024</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('8.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">1ª Noite na rua (vi 2 shows essa noite)</div>
+                            <div class="swiper-slide-date">16 de Maio de 2024</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('9.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">1º Arraiá (de muitos³)</div>
+                            <div class="swiper-slide-date">29 de Junho de 2024</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('10.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">1º Viagem de casal (uma das minhas memórias favoritas)</div>
+                            <div class="swiper-slide-date">29 de Julho de 2024</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('11.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">1 aninho juntos! (chupa haters)</div>
+                            <div class="swiper-slide-date">01 de Outubro de 2024</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('12.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">Minha foto favorita (sem gracinha nessa)</div>
+                            <div class="swiper-slide-date">23 de Março de 2025</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('13.jpg')">
+                        <div class="swiper-slide-content">
+                            <div class="swiper-slide-title">Nossa última foto (spoiler do nosso casamento)</div>
+                            <div class="swiper-slide-date">26 de abril de 2025</div>
                         </div>
                     </div>
                 </div>
@@ -665,7 +788,7 @@ Com muito amor, da sua metade da laranja, dos seus cachinhos favoritos, da sua p
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        // Inicializar o Swiper com efeitos melhorados
+        // Inicializar o Swiper
         const swiper = new Swiper('.swiper', {
             loop: true,
             effect: 'coverflow',
@@ -673,14 +796,14 @@ Com muito amor, da sua metade da laranja, dos seus cachinhos favoritos, da sua p
             centeredSlides: true,
             slidesPerView: 'auto',
             coverflowEffect: {
-                rotate: 5,
+                rotate: 0,
                 stretch: 0,
-                depth: 300,
-                modifier: 3,
+                depth: 100,
+                modifier: 2,
                 slideShadows: true,
             },
             autoplay: {
-                delay: 5000,
+                delay: 4000,
                 disableOnInteraction: false,
             },
             pagination: {
@@ -691,23 +814,6 @@ Com muito amor, da sua metade da laranja, dos seus cachinhos favoritos, da sua p
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            on: {
-                init: function() {
-                    // Adiciona classe ativa ao slide inicial
-                    const slides = document.querySelectorAll('.swiper-slide');
-                    if (slides.length > 0) {
-                        slides[this.activeIndex].classList.add('swiper-slide-active');
-                    }
-                },
-                slideChange: function() {
-                    // Atualiza classes ativas
-                    const slides = document.querySelectorAll('.swiper-slide');
-                    slides.forEach(slide => {
-                        slide.classList.remove('swiper-slide-active');
-                    });
-                    slides[this.activeIndex].classList.add('swiper-slide-active');
-                }
-            }
         });
         
         // Data de início do relacionamento: 1 de outubro de 2023
@@ -771,15 +877,15 @@ Com muito amor, da sua metade da laranja, dos seus cachinhos favoritos, da sua p
         // Abrir o popup ao clicar no coração
         easterTrigger.addEventListener('click', () => {
             easterPopup.classList.add('active');
-            // Pausar o carrossel quando o popup estiver aberto
             swiper.autoplay.stop();
+            document.body.style.overflow = 'hidden'; // Previne scroll quando popup está aberto
         });
         
         // Fechar o popup
         closePopup.addEventListener('click', () => {
             easterPopup.classList.remove('active');
-            // Retomar o carrossel quando o popup for fechado
             swiper.autoplay.start();
+            document.body.style.overflow = ''; // Restaura scroll
         });
         
         // Fechar ao clicar fora do conteúdo
@@ -787,18 +893,18 @@ Com muito amor, da sua metade da laranja, dos seus cachinhos favoritos, da sua p
             if (e.target === easterPopup) {
                 easterPopup.classList.remove('active');
                 swiper.autoplay.start();
+                document.body.style.overflow = ''; // Restaura scroll
             }
         });
         
-        // Efeito de brilho aleatório nos títulos
-        const glowElements = document.querySelectorAll('.glow');
-        setInterval(() => {
-            glowElements.forEach(element => {
-                element.style.textShadow = `0 0 ${10 + Math.random() * 10}px rgba(233, 30, 99, ${0.7 + Math.random() * 0.3}), 
-                                           0 0 ${20 + Math.random() * 15}px rgba(233, 30, 99, ${0.5 + Math.random() * 0.3}),
-                                           0 0 ${30 + Math.random() * 20}px rgba(233, 30, 99, ${0.3 + Math.random() * 0.2})`;
-            });
-        }, 3000);
+        // Fechar com a tecla ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && easterPopup.classList.contains('active')) {
+                easterPopup.classList.remove('active');
+                swiper.autoplay.start();
+                document.body.style.overflow = ''; // Restaura scroll
+            }
+        });
     </script>
 </body>
 </html>
